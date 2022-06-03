@@ -20,6 +20,8 @@ Test
 
 Ejecutar: npm test 
 
+Captura de los test funcionando 
+
 
 ![image](https://user-images.githubusercontent.com/72479030/171776271-d6a00644-00ec-4462-87e9-9d39439d0c98.png)
 
@@ -32,14 +34,14 @@ http://54.161.148.179:3003/
 --------------------------------------------------------------------------
 Las tecnologias implementadas fueron:
 
-css: loader: para cargar las imagenes
+loader: para cargar las imagenes
 eslint: para restriccion y estilo de la sintaxis del código
 webpack: para empacar podulos generarno un archivo con los modulos que hacen funcionar el proyecto
 Boostrap: para el front -end
 React: para la practica de componentes
 Html: unicamente para el index
-Ssas: para el diseño/estilo del proyecto
+css: para el diseño/estilo del proyecto
 Babel: para transformar el codigo escrito
-
+Unit Testing: para comprobar que todo se este ejecutando correctamente 
 
 
