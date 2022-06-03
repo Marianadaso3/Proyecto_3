@@ -34,14 +34,14 @@ http://54.161.148.179:3003/
 --------------------------------------------------------------------------
 Las tecnologias implementadas fueron:
 
-loader: para cargar las imagenes
-eslint: para restriccion y estilo de la sintaxis del código
-webpack: para empacar podulos generarno un archivo con los modulos que hacen funcionar el proyecto
-Boostrap: para el front -end
-React: para la practica de componentes
-Html: unicamente para el index
-css: para el diseño/estilo del proyecto
-Babel: para transformar el codigo escrito
-Unit Testing: para comprobar que todo se este ejecutando correctamente 
+- loader: para cargar las imagenes
+- eslint: para restriccion y estilo de la sintaxis del código
+- webpack: para empacar podulos generarno un archivo con los modulos que hacen funcionar el proyecto
+- Boostrap: para el front -end
+- React: para la practica de componentes
+- Html: unicamente para el index
+- css: para el diseño/estilo del proyecto
+- Babel: para transformar el codigo escrito
+- Unit Testing: para comprobar que todo se este ejecutando correctamente 
 
 
