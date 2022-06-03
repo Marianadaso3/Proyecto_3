@@ -1,0 +1,74 @@
+.fondo{
+    background-color: #eee;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.red{
+    color: #000000 !important;
+}
+
+.red:hover{
+    opacity: 0.7;
+}
+
+
+.escribeme{
+    text-align: center;
+    font-size: 17px;
+    margin-top:30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.input{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.textarea{
+
+    height: 200px;
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    resize: none;
+
+}
+
+.submit{
+
+    height: 50px;
+    width: 50%;
+    border: 2px solid #333;
+    outline: none;
+    padding: 10px 20px;
+    color: #777;
+    font-size: 20px;
+
+}
+
+.submit:hover{
+
+   background-color: #474d5d;
+   color: #ffffff;
+   border: none;
+}

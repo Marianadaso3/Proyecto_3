@@ -1,0 +1,51 @@
+
+.custom-nav{
+    background: rgba(0,0,0,0);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    height: 100px;
+    transition-property: background height;
+    transition-duration: 0.5s;
+
+}
+
+.movido{
+    background: rgba(0,0,0,1);
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    height: 80px;
+
+}
+
+
+
+
+.navbar-brand{
+    font-size: 50px;
+}
+
+.navbar .nav-item .nav-link{
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.navbar .nav-item .nav-link:hover {
+    background: #ffffff;
+    color: #000;
+}
+
+.navbar .navbar-brand{
+    color: #ffffff;
+}
+
+.active{
+    outline: 1px solid #fff;
+    border-radius: 2px solid #ffff;
+}
+
+
+

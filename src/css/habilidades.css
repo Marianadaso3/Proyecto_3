@@ -1,0 +1,288 @@
+.fondo-habilidades {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+#habilidades{
+    padding: 0;
+   
+}
+
+
+/* PROGRESS BAR */
+
+
+.porcentaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+    
+}
+
+.cont{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cont .card{
+    position: relative;
+    width: 300px;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 330px;
+    text-align: center;
+    transition: 0.5s;
+
+    background: transparent;
+    border: none;
+}
+
+
+
+.porcent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #fff;
+    background: transparent;
+    z-index: 1000;
+}
+
+.porcent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+}
+.porcent .number h2{
+    color: #222;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+.porcent .number h2 span{
+    color:#222;
+}
+
+.text{
+    position: relative;
+    color:#555;;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-85deg)!important;
+}
+
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 10;
+    stroke-linecap: round !important;
+    transform: translate(5px, 5px);
+}
+
+/*Claculo para simular el porcent*/
+svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 85)/100);
+    stroke: #777;
+    
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 80)/100);
+    stroke:#777;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90)/100);
+    stroke: #777;
+}
+
+/* Habilidades */
+
+
+
+.habilidad {
+    height: 40px;
+    width: 100%;
+   
+    margin-bottom: 20px;
+    background: #CCCCCC;
+    border-radius: 0 10px 10px 0 ;
+}
+
+.porcentaje-barra{
+    height: 100%;
+    background: #474d5d;
+    position: relative;
+    z-index: 10;
+    border-radius: 0 15px 15px 0 ;
+    padding: 10px;
+    color: #ffffff; 
+    font-weight: bold;
+                                                                                                          
+}
+
+/* CONTRATAR */
+
+.contratar{
+    
+    background: #474d5d;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    margin: 0;
+}
+
+.texto-contratar{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.botones-contratar{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.realizar-propuesta{
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+}
+
+.realizar-propuesta:hover{
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+.descargar-curriculum{
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.descargar-curriculum:hover{
+    box-shadow: 0 0 5px #222;
+    color: #ffffff;
+   
+}
+
+
+/* ANIMACIONES */
+
+.a{
+    animation-name: barra1;
+    animation-duration: 0.5s;
+}
+
+
+@keyframes barra1 {
+    from{
+        width: 0;
+
+    }
+
+    to{
+        width: 50%;
+    }
+}
+
+@keyframes barra2 {
+    from{
+        width: 0;
+
+    }
+
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes barra3 {
+    from{
+        width: 0;
+
+    }
+
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes barra4 {
+    from{
+        width: 0;
+
+    }
+
+    to{
+        width: 90%;
+    }
+}
+
+
+@keyframes barra5 {
+    from{
+        width: 0;
+
+    }
+
+    to{
+        width: 90%;
+    }
+}
+
+@keyframes barra6 {
+    from{
+        width: 0;
+
+    }
+
+    to{
+        width: 90%;
+    }
+}
+
