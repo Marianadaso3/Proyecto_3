@@ -29,7 +29,8 @@ Captura de los test funcionando
 Proyecto en el servidor 3003 (nginx)
 
 http://54.161.148.179:3003/
-
+Actualizado con VERCEL
+https://proyecto-3-blue.vercel.app/
 --------------------------------------------------------------------------
 Las tecnologias implementadas fueron:
 
